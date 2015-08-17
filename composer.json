@@ -1,0 +1,41 @@
+{
+    "name": "molajoplugins/wrap",
+    "description": "Wrap Plugin for Molajo",
+    "version": "1.0.0",
+    "type": "molajo-plugin",
+    "keywords": [
+        "plugin",
+        "molajo",
+        "wrap"
+    ],
+    "homepage": "http://github.com/MolajoPlugins/Wrap",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Amy Stephen",
+            "email": "AmyStephen@molajo.org",
+            "homepage": "http://AmyStephen.com",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/MolajoPlugins/Wrap/issues",
+        "forum": "https://groups.google.com/forum/#!forum/molajo",
+        "irc": "irc://irc.freenode.org/molajo",
+        "source": "https://github.com/MolajoPlugins/Wrap"
+    },
+    "require": {
+        "molajo/plugins": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "Molajo\\Plugins\\": "Source/"
+        }
+    },
+
+    "archive": {
+        "exclude": ["/.dev"]
+    },
+
+    "minimum-stability": "dev"
+}
