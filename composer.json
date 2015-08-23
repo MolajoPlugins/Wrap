@@ -1,6 +1,6 @@
 {
     "name": "molajoplugins/wrap",
-    "description": "Wrap Plugin for Molajo",
+    "description": "Wrap Plugin for use with the Molajo Plugin Framework",
     "version": "1.0.0",
     "type": "molajo-plugin",
     "keywords": [
@@ -29,7 +29,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Molajo\\Plugins\\": "Source/"
+            "Molajo\\Plugins\\Wrap\\": "/"
         }
     },
 
